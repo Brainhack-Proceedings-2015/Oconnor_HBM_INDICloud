@@ -105,7 +105,7 @@
 
 \title{Sharing Data in the Cloud}
 \vskip2ex
-\projectURL{Project URL: \url{http://github.com/}}
+\projectURL{Project URL: \url{https://github.com/DaveOC90/INDI-Organization-Scripts}}
 
 \author[
 addressref={aff1, aff2},
@@ -141,7 +141,7 @@ email={ccraddock@nki.rfmh.org}
   \orgname{Center for Biomedical Imaging and Neuromodulation, Nathan Kline
 Institute for Psychiatric Research},
   \city{Orangeburg},
-  \street{140 Old Orangeburg Rd},
+  \street{140},
   \postcode{10962},
   \postcode{New York},
   \cny{USA}
@@ -149,7 +149,7 @@ Institute for Psychiatric Research},
 \address[id=aff2]{%
   \orgname{Center for the Developing Brain, Child Mind Institute},
   \city{New York},
-  \street{445 Park Ave},
+  \street{445},
   \postcode{10022},
   \postcode{New York},
   \cny{USA}
@@ -200,8 +200,8 @@ Institute for Psychiatric Research},
 
 %\vskip1ex
 
-%\projectURL{\url{http://github.com/}}
-%\projectURL{http://github.com/}
+%\projectURL{\url{https://github.com/DaveOC90/INDI-Organization-Scripts}}
+%\projectURL{https://github.com/DaveOC90/INDI-Organization-Scripts}
 
 % MSC classifications codes, if any
 %\begin{keyword}[class=AMS]
@@ -216,30 +216,30 @@ Institute for Psychiatric Research},
 
 \end{frontmatter}
 
-%{\sffamily\bfseries\fontsize{10}{12}\selectfont Project URL: \url{http://github.com/}}
+%{\sffamily\bfseries\fontsize{10}{12}\selectfont Project URL: \url{https://github.com/DaveOC90/INDI-Organization-Scripts}}
 
 %%% Import the body from pandoc formatted text
 \section{Introduction}\label{introduction}
 
 Cloud computing resources, such as Amazon Web
-Services\footnote{\url{http://aws.amazon}} (AWS), provide pay-as-you-go
-access to high-performance computer resources and dependable data
-storage solutions for performing large scale analyses of neuromaging
-data\cite{Clark2015}. These are particularly attractive for researchers
-at small universities and in developing countries who lack the
-wherewithal to maintain their own high performance computing systems.
-The objective of this project is to upload data from the 1000 Functional
-Connectomes Project (FCP)\cite{biswal2010} and International
+Services\footnote{\url{http://aws.amazon.com}} (AWS), provide
+pay-as-you-go access to high-performance computer resources and
+dependable data storage solutions for performing large scale analyses of
+neuroimaging data\cite{Clark2015}. These are particularly attractive for
+researchers at small universities and in developing countries who lack
+the wherewithal to maintain their own high performance computing
+systems. The objective of this project is to upload data from the 1000
+Functional Connectomes Project (FCP)\cite{biswal2010} and International
 Neuroimaging Datasharing Initiatives (INDI) \cite{mennes2013}
 grass-roots data sharing initiatives into a Public S3 Bucket that has
 been generously provided by AWS. This will make the data more quickly
-accesible for AWS-based analysis of these data, but will also improve
+accessible for AWS-based analysis of these data, but will also improve
 the speed and availability of access to this data for analyses performed
 outside of the cloud. To begin with, we focused on the following
 collections:
 
 \begin{itemize}
-\tightlist
+\itemsep1pt\parskip0pt\parsep0pt
 \item
   The \emph{Autism Brain Imaging Data Exchange (ABIDE)} consists of
   structural MRI and resting state functional MRI from 1113 individuals
@@ -248,10 +248,9 @@ collections:
   \cite{dimartino2014}.
 \item
   The \emph{ADHD-200} contains structural MRI and resting state
-  funnctional MRI from 973 individuals (352 F, 594 M, 7-21 years old,
-  362 with attention deficit hyperactivity disorder (ADHD), 585
-  typically developing controls) collected from 8 sites
-  \cite{Milham2012}.
+  functional MRI from 973 individuals (352 F, 594 M, 7-21 years old, 362
+  with attention deficit hyperactivity disorder (ADHD), 585 typically
+  developing controls) collected from 8 sites \cite{Milham2012}.
 \item
   The \emph{Consortium for Reliability and Reproducibility (CoRR)}
   consists of 3,357 structural MRI, 5,093 resting state fMRI, 1,302
@@ -265,14 +264,21 @@ collections:
   and deep phenotyping on over 700 participants from across the lifespan
   and a variety of phenotypes acquired at a single site
   \cite{nooner2012}. The acquisition of this collection is ongoing.
+\item
+  The \emph{Addiction Connectome Preprocessed Initiative
+  (ACPI)}\footnote{\url{http://fcon_1000.projects.nitrc.org/indi/ACPI/html/index.html}}
+  consists of 216 structural MRI and 252 functional MRI from 192
+  subjects (44 F, 148 M, 18-50 years old) from three datasets generated
+  by NIDA investigators.
 \end{itemize}
 
 \section{Approach}\label{approach}
 
 Data for the ADHD-200, ABIDE, CoRR, and Rockland Sample data collections
-are currently downloadable from NITRC\footnote{\url{}} as a series of
-large (\textgreater{}2GB) tar files. The process of uploading the data
-involved downloading and extracting the data from these tar files,
+are currently downloadable from
+NITRC\footnote{\url{http://fcon_1000.projects.nitrc.org/}} as a series
+of large (\textgreater{}2GB) tar files. The process of uploading the
+data involved downloading and extracting the data from these tar files,
 organizing the individual images, and then uploading the data to S3. We
 developed a S3 upload script in python using the Boto AWS software
 development kit\footnote{\url{https://aws.amazon.com/sdk-for-python/}}
@@ -282,7 +288,7 @@ download from a spreadsheet describing the data.
 
 \section{Results}\label{results}
 
-The entirety of the CoRR, ABIDE, and ADHD-200 data collections and
+The entirety of the CoRR, ABIDE, ACPI, and ADHD-200 data collections and
 ENKIRS data for 427 individuals were uploaded during the OHBM Hackathon
 event. The data are available as individual files to make it easily
 indexable by database infrastructures such as COINs \cite{landis2016},
@@ -300,7 +306,7 @@ Fig. 1), or using the Boto python library.
 \section{Conclusions}\label{conclusions}
 
 Uploading data shared through the FCP and INDI initiatives improves its
-accessbility for cloud-based and local computation. Future efforts for
+accessibility for cloud-based and local computation. Future efforts for
 this project will include uploading the remainder of the FCP and INDI
 data and organizing the data in the new brain imaging data structure
 (BIDS) format \cite{Gorgolewski2015}.
@@ -314,7 +320,7 @@ data and organizing the data in the new brain imaging data structure
 \begin{backmatter}
 
 \section*{Availability of Supporting Data}
-More information about this project can be found at: \url{http://github.com/}. Further data and files supporting this project are hosted in the \emph{GigaScience} repository REFXXX.
+More information about this project can be found at: \url{https://github.com/DaveOC90/INDI-Organization-Scripts}. Further data and files supporting this project are hosted in the \emph{GigaScience} repository REFXXX.
 
 \section*{Competing interests}
 None

@@ -1,0 +1,843 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{10}
+% BibTex style file: bmc-mathphys.bst (version 2.0), 2013-07-15
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{Clark2015}
+\begin{botherref}
+\oauthor{\bsnm{Clark}, \binits{D.}},
+\oauthor{\bsnm{Haselgrove}, \binits{C.}},
+\oauthor{\bsnm{Kennedy}, \binits{D.N.}},
+\oauthor{\bsnm{Liu}, \binits{Z.}},
+\oauthor{\bsnm{Milham}, \binits{M.}},
+\oauthor{\bsnm{Petrosyan}, \binits{P.}},
+\oauthor{\bsnm{Torgerson}, \binits{C.}},
+\oauthor{\bsnm{Van~Horn}, \binits{J.}},
+\oauthor{\bsnm{Craddock}, \binits{C.}}:
+Harnessing cloud computing for high capacity analysis of neuroimaging data from
+  ndar.
+Frontiers in Neuroscience
+(21).
+doi:\doiurl{10.3389/conf.fnins.2015.91.00021}
+\end{botherref}
+\endbibitem
+
+%%% 2
+\bibitem{biswal2010}
+\begin{barticle}
+\bauthor{\bsnm{Biswal}, \binits{B.B.}},
+\bauthor{\bsnm{Mennes}, \binits{M.}},
+\bauthor{\bsnm{Zuo}, \binits{X.N.}},
+\bauthor{\bsnm{Gohel}, \binits{S.}},
+\bauthor{\bsnm{Kelly}, \binits{C.}},
+\bauthor{\bsnm{Smith}, \binits{S.M.}},
+\bauthor{\bsnm{Beckmann}, \binits{C.F.}},
+\bauthor{\bsnm{Adelstein}, \binits{J.S.}},
+\bauthor{\bsnm{Buckner}, \binits{R.L.}},
+\bauthor{\bsnm{Colcombe}, \binits{S.}},
+\bauthor{\bsnm{Dogonowski}, \binits{A.M.}},
+\bauthor{\bsnm{Ernst}, \binits{M.}},
+\bauthor{\bsnm{Fair}, \binits{D.}},
+\bauthor{\bsnm{Hampson}, \binits{M.}},
+\bauthor{\bsnm{Hoptman}, \binits{M.J.}},
+\bauthor{\bsnm{Hyde}, \binits{J.S.}},
+\bauthor{\bsnm{Kiviniemi}, \binits{V.J.}},
+\bauthor{\bsnm{Kotter}, \binits{R.}},
+\bauthor{\bsnm{Li}, \binits{S.J.}},
+\bauthor{\bsnm{Lin}, \binits{C.P.}},
+\bauthor{\bsnm{Lowe}, \binits{M.J.}},
+\bauthor{\bsnm{Mackay}, \binits{C.}},
+\bauthor{\bsnm{Madden}, \binits{D.J.}},
+\bauthor{\bsnm{Madsen}, \binits{K.H.}},
+\bauthor{\bsnm{Margulies}, \binits{D.S.}},
+\bauthor{\bsnm{Mayberg}, \binits{H.S.}},
+\bauthor{\bsnm{McMahon}, \binits{K.}},
+\bauthor{\bsnm{Monk}, \binits{C.S.}},
+\bauthor{\bsnm{Mostofsky}, \binits{S.H.}},
+\bauthor{\bsnm{Nagel}, \binits{B.J.}},
+\bauthor{\bsnm{Pekar}, \binits{J.J.}},
+\bauthor{\bsnm{Peltier}, \binits{S.J.}},
+\bauthor{\bsnm{Petersen}, \binits{S.E.}},
+\bauthor{\bsnm{Riedl}, \binits{V.}},
+\bauthor{\bsnm{Rombouts}, \binits{S.A.}},
+\bauthor{\bsnm{Rypma}, \binits{B.}},
+\bauthor{\bsnm{Schlaggar}, \binits{B.L.}},
+\bauthor{\bsnm{Schmidt}, \binits{S.}},
+\bauthor{\bsnm{Seidler}, \binits{R.D.}},
+\bauthor{\bsnm{Siegle}, \binits{G.J.}},
+\bauthor{\bsnm{Sorg}, \binits{C.}},
+\bauthor{\bsnm{Teng}, \binits{G.J.}},
+\bauthor{\bsnm{Veijola}, \binits{J.}},
+\bauthor{\bsnm{Villringer}, \binits{A.}},
+\bauthor{\bsnm{Walter}, \binits{M.}},
+\bauthor{\bsnm{Wang}, \binits{L.}},
+\bauthor{\bsnm{Weng}, \binits{X.C.}},
+\bauthor{\bsnm{Whitfield-Gabrieli}, \binits{S.}},
+\bauthor{\bsnm{Williamson}, \binits{P.}},
+\bauthor{\bsnm{Windischberger}, \binits{C.}},
+\bauthor{\bsnm{Zang}, \binits{Y.F.}},
+\bauthor{\bsnm{Zhang}, \binits{H.Y.}},
+\bauthor{\bsnm{Castellanos}, \binits{F.X.}},
+\bauthor{\bsnm{Milham}, \binits{M.P.}}:
+\batitle{{{T}oward discovery science of human brain function}}.
+\bjtitle{Proc. Natl. Acad. Sci. U.S.A.}
+\bvolume{107}(\bissue{10}),
+\bfpage{4734}--\blpage{4739}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem{mennes2013}
+\begin{barticle}
+\bauthor{\bsnm{Mennes}, \binits{M.}},
+\bauthor{\bsnm{Biswal}, \binits{B.B.}},
+\bauthor{\bsnm{Castellanos}, \binits{F.X.}},
+\bauthor{\bsnm{Milham}, \binits{M.P.}}:
+\batitle{{{M}aking data sharing work: the {F}{C}{P}/{I}{N}{D}{I} experience}}.
+\bjtitle{Neuroimage}
+\bvolume{82},
+\bfpage{683}--\blpage{691}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem{dimartino2014}
+\begin{barticle}
+\bauthor{\bsnm{Di~Martino}, \binits{A.}},
+\bauthor{\bsnm{Yan}, \binits{C.G.}},
+\bauthor{\bsnm{Li}, \binits{Q.}},
+\bauthor{\bsnm{Denio}, \binits{E.}},
+\bauthor{\bsnm{Castellanos}, \binits{F.X.}},
+\bauthor{\bsnm{Alaerts}, \binits{K.}},
+\bauthor{\bsnm{Anderson}, \binits{J.S.}},
+\bauthor{\bsnm{Assaf}, \binits{M.}},
+\bauthor{\bsnm{Bookheimer}, \binits{S.Y.}},
+\bauthor{\bsnm{Dapretto}, \binits{M.}},
+\bauthor{\bsnm{Deen}, \binits{B.}},
+\bauthor{\bsnm{Delmonte}, \binits{S.}},
+\bauthor{\bsnm{Dinstein}, \binits{I.}},
+\bauthor{\bsnm{Ertl-Wagner}, \binits{B.}},
+\bauthor{\bsnm{Fair}, \binits{D.A.}},
+\bauthor{\bsnm{Gallagher}, \binits{L.}},
+\bauthor{\bsnm{Kennedy}, \binits{D.P.}},
+\bauthor{\bsnm{Keown}, \binits{C.L.}},
+\bauthor{\bsnm{Keysers}, \binits{C.}},
+\bauthor{\bsnm{Lainhart}, \binits{J.E.}},
+\bauthor{\bsnm{Lord}, \binits{C.}},
+\bauthor{\bsnm{Luna}, \binits{B.}},
+\bauthor{\bsnm{Menon}, \binits{V.}},
+\bauthor{\bsnm{Minshew}, \binits{N.J.}},
+\bauthor{\bsnm{Monk}, \binits{C.S.}},
+\bauthor{\bsnm{Mueller}, \binits{S.}},
+\bauthor{\bsnm{Muller}, \binits{R.A.}},
+\bauthor{\bsnm{Nebel}, \binits{M.B.}},
+\bauthor{\bsnm{Nigg}, \binits{J.T.}},
+\bauthor{\bsnm{O'Hearn}, \binits{K.}},
+\bauthor{\bsnm{Pelphrey}, \binits{K.A.}},
+\bauthor{\bsnm{Peltier}, \binits{S.J.}},
+\bauthor{\bsnm{Rudie}, \binits{J.D.}},
+\bauthor{\bsnm{Sunaert}, \binits{S.}},
+\bauthor{\bsnm{Thioux}, \binits{M.}},
+\bauthor{\bsnm{Tyszka}, \binits{J.M.}},
+\bauthor{\bsnm{Uddin}, \binits{L.Q.}},
+\bauthor{\bsnm{Verhoeven}, \binits{J.S.}},
+\bauthor{\bsnm{Wenderoth}, \binits{N.}},
+\bauthor{\bsnm{Wiggins}, \binits{J.L.}},
+\bauthor{\bsnm{Mostofsky}, \binits{S.H.}},
+\bauthor{\bsnm{Milham}, \binits{M.P.}}:
+\batitle{{{T}he autism brain imaging data exchange: towards a large-scale
+  evaluation of the intrinsic brain architecture in autism}}.
+\bjtitle{Mol. Psychiatry}
+\bvolume{19}(\bissue{6}),
+\bfpage{659}--\blpage{667}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem{Milham2012}
+\begin{botherref}
+\oauthor{\bsnm{Milham}, \binits{M.P.}},
+\oauthor{\bsnm{Fair}, \binits{D.}},
+\oauthor{\bsnm{Mennes}, \binits{M.}},
+\oauthor{\bsnm{Mostofsky}, \binits{S.H.}}:
+The adhd-200 consortium: a model to advance the translational potential of
+  neuroimaging in clinical neuroscience.
+Frontiers in Systems Neuroscience
+\textbf{6}(62)
+(2012).
+doi:\doiurl{10.3389/fnsys.2012.00062}
+\end{botherref}
+\endbibitem
+
+%%% 6
+\bibitem{zuo2014}
+\begin{barticle}
+\bauthor{\bsnm{Zuo}, \binits{X.N.}},
+\bauthor{\bsnm{Anderson}, \binits{J.S.}},
+\bauthor{\bsnm{Bellec}, \binits{P.}},
+\bauthor{\bsnm{Birn}, \binits{R.M.}},
+\bauthor{\bsnm{Biswal}, \binits{B.B.}},
+\bauthor{\bsnm{Blautzik}, \binits{J.}},
+\bauthor{\bsnm{Breitner}, \binits{J.C.}},
+\bauthor{\bsnm{Buckner}, \binits{R.L.}},
+\bauthor{\bsnm{Calhoun}, \binits{V.D.}},
+\bauthor{\bsnm{Castellanos}, \binits{F.X.}},
+\bauthor{\bsnm{Chen}, \binits{A.}},
+\bauthor{\bsnm{Chen}, \binits{B.}},
+\bauthor{\bsnm{Chen}, \binits{J.}},
+\bauthor{\bsnm{Chen}, \binits{X.}},
+\bauthor{\bsnm{Colcombe}, \binits{S.J.}},
+\bauthor{\bsnm{Courtney}, \binits{W.}},
+\bauthor{\bsnm{Craddock}, \binits{R.C.}},
+\bauthor{\bsnm{Di~Martino}, \binits{A.}},
+\bauthor{\bsnm{Dong}, \binits{H.M.}},
+\bauthor{\bsnm{Fu}, \binits{X.}},
+\bauthor{\bsnm{Gong}, \binits{Q.}},
+\bauthor{\bsnm{Gorgolewski}, \binits{K.J.}},
+\bauthor{\bsnm{Han}, \binits{Y.}},
+\bauthor{\bsnm{He}, \binits{Y.}},
+\bauthor{\bsnm{He}, \binits{Y.}},
+\bauthor{\bsnm{Ho}, \binits{E.}},
+\bauthor{\bsnm{Holmes}, \binits{A.}},
+\bauthor{\bsnm{Hou}, \binits{X.H.}},
+\bauthor{\bsnm{Huckins}, \binits{J.}},
+\bauthor{\bsnm{Jiang}, \binits{T.}},
+\bauthor{\bsnm{Jiang}, \binits{Y.}},
+\bauthor{\bsnm{Kelley}, \binits{W.}},
+\bauthor{\bsnm{Kelly}, \binits{C.}},
+\bauthor{\bsnm{King}, \binits{M.}},
+\bauthor{\bsnm{LaConte}, \binits{S.M.}},
+\bauthor{\bsnm{Lainhart}, \binits{J.E.}},
+\bauthor{\bsnm{Lei}, \binits{X.}},
+\bauthor{\bsnm{Li}, \binits{H.J.}},
+\bauthor{\bsnm{Li}, \binits{K.}},
+\bauthor{\bsnm{Li}, \binits{K.}},
+\bauthor{\bsnm{Lin}, \binits{Q.}},
+\bauthor{\bsnm{Liu}, \binits{D.}},
+\bauthor{\bsnm{Liu}, \binits{J.}},
+\bauthor{\bsnm{Liu}, \binits{X.}},
+\bauthor{\bsnm{Liu}, \binits{Y.}},
+\bauthor{\bsnm{Lu}, \binits{G.}},
+\bauthor{\bsnm{Lu}, \binits{J.}},
+\bauthor{\bsnm{Luna}, \binits{B.}},
+\bauthor{\bsnm{Luo}, \binits{J.}},
+\bauthor{\bsnm{Lurie}, \binits{D.}},
+\bauthor{\bsnm{Mao}, \binits{Y.}},
+\bauthor{\bsnm{Margulies}, \binits{D.S.}},
+\bauthor{\bsnm{Mayer}, \binits{A.R.}},
+\bauthor{\bsnm{Meindl}, \binits{T.}},
+\bauthor{\bsnm{Meyerand}, \binits{M.E.}},
+\bauthor{\bsnm{Nan}, \binits{W.}},
+\bauthor{\bsnm{Nielsen}, \binits{J.A.}},
+\bauthor{\bsnm{O'Connor}, \binits{D.}},
+\bauthor{\bsnm{Paulsen}, \binits{D.}},
+\bauthor{\bsnm{Prabhakaran}, \binits{V.}},
+\bauthor{\bsnm{Qi}, \binits{Z.}},
+\bauthor{\bsnm{Qiu}, \binits{J.}},
+\bauthor{\bsnm{Shao}, \binits{C.}},
+\bauthor{\bsnm{Shehzad}, \binits{Z.}},
+\bauthor{\bsnm{Tang}, \binits{W.}},
+\bauthor{\bsnm{Villringer}, \binits{A.}},
+\bauthor{\bsnm{Wang}, \binits{H.}},
+\bauthor{\bsnm{Wang}, \binits{K.}},
+\bauthor{\bsnm{Wei}, \binits{D.}},
+\bauthor{\bsnm{Wei}, \binits{G.X.}},
+\bauthor{\bsnm{Weng}, \binits{X.C.}},
+\bauthor{\bsnm{Wu}, \binits{X.}},
+\bauthor{\bsnm{Xu}, \binits{T.}},
+\bauthor{\bsnm{Yang}, \binits{N.}},
+\bauthor{\bsnm{Yang}, \binits{Z.}},
+\bauthor{\bsnm{Zang}, \binits{Y.F.}},
+\bauthor{\bsnm{Zhang}, \binits{L.}},
+\bauthor{\bsnm{Zhang}, \binits{Q.}},
+\bauthor{\bsnm{Zhang}, \binits{Z.}},
+\bauthor{\bsnm{Zhang}, \binits{Z.}},
+\bauthor{\bsnm{Zhao}, \binits{K.}},
+\bauthor{\bsnm{Zhen}, \binits{Z.}},
+\bauthor{\bsnm{Zhou}, \binits{Y.}},
+\bauthor{\bsnm{Zhu}, \binits{X.T.}},
+\bauthor{\bsnm{Milham}, \binits{M.P.}}:
+\batitle{{{A}n open science resource for establishing reliability and
+  reproducibility in functional connectomics}}.
+\bjtitle{Sci Data}
+\bvolume{1},
+\bfpage{140049}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem{nooner2012}
+\begin{barticle}
+\bauthor{\bsnm{Nooner}, \binits{K.B.}},
+\bauthor{\bsnm{Colcombe}, \binits{S.J.}},
+\bauthor{\bsnm{Tobe}, \binits{R.H.}},
+\bauthor{\bsnm{Mennes}, \binits{M.}},
+\bauthor{\bsnm{Benedict}, \binits{M.M.}},
+\bauthor{\bsnm{Moreno}, \binits{A.L.}},
+\bauthor{\bsnm{Panek}, \binits{L.J.}},
+\bauthor{\bsnm{Brown}, \binits{S.}},
+\bauthor{\bsnm{Zavitz}, \binits{S.T.}},
+\bauthor{\bsnm{Li}, \binits{Q.}},
+\bauthor{\bsnm{Sikka}, \binits{S.}},
+\bauthor{\bsnm{Gutman}, \binits{D.}},
+\bauthor{\bsnm{Bangaru}, \binits{S.}},
+\bauthor{\bsnm{Schlachter}, \binits{R.T.}},
+\bauthor{\bsnm{Kamiel}, \binits{S.M.}},
+\bauthor{\bsnm{Anwar}, \binits{A.R.}},
+\bauthor{\bsnm{Hinz}, \binits{C.M.}},
+\bauthor{\bsnm{Kaplan}, \binits{M.S.}},
+\bauthor{\bsnm{Rachlin}, \binits{A.B.}},
+\bauthor{\bsnm{Adelsberg}, \binits{S.}},
+\bauthor{\bsnm{Cheung}, \binits{B.}},
+\bauthor{\bsnm{Khanuja}, \binits{R.}},
+\bauthor{\bsnm{Yan}, \binits{C.}},
+\bauthor{\bsnm{Craddock}, \binits{C.C.}},
+\bauthor{\bsnm{Calhoun}, \binits{V.}},
+\bauthor{\bsnm{Courtney}, \binits{W.}},
+\bauthor{\bsnm{King}, \binits{M.}},
+\bauthor{\bsnm{Wood}, \binits{D.}},
+\bauthor{\bsnm{Cox}, \binits{C.L.}},
+\bauthor{\bsnm{Kelly}, \binits{A.M.}},
+\bauthor{\bsnm{Di~Martino}, \binits{A.}},
+\bauthor{\bsnm{Petkova}, \binits{E.}},
+\bauthor{\bsnm{Reiss}, \binits{P.T.}},
+\bauthor{\bsnm{Duan}, \binits{N.}},
+\bauthor{\bsnm{Thomsen}, \binits{D.}},
+\bauthor{\bsnm{Biswal}, \binits{B.}},
+\bauthor{\bsnm{Coffey}, \binits{B.}},
+\bauthor{\bsnm{Hoptman}, \binits{M.J.}},
+\bauthor{\bsnm{Javitt}, \binits{D.C.}},
+\bauthor{\bsnm{Pomara}, \binits{N.}},
+\bauthor{\bsnm{Sidtis}, \binits{J.J.}},
+\bauthor{\bsnm{Koplewicz}, \binits{H.S.}},
+\bauthor{\bsnm{Castellanos}, \binits{F.X.}},
+\bauthor{\bsnm{Leventhal}, \binits{B.L.}},
+\bauthor{\bsnm{Milham}, \binits{M.P.}}:
+\batitle{{{T}he {N}{K}{I}-{R}ockland {S}ample: {A} {M}odel for {A}ccelerating
+  the {P}ace of {D}iscovery {S}cience in {P}sychiatry}}.
+\bjtitle{Front Neurosci}
+\bvolume{6},
+\bfpage{152}
+(\byear{2012})
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem{landis2016}
+\begin{barticle}
+\bauthor{\bsnm{Landis}, \binits{D.}},
+\bauthor{\bsnm{Courtney}, \binits{W.}},
+\bauthor{\bsnm{Dieringer}, \binits{C.}},
+\bauthor{\bsnm{Kelly}, \binits{R.}},
+\bauthor{\bsnm{King}, \binits{M.}},
+\bauthor{\bsnm{Miller}, \binits{B.}},
+\bauthor{\bsnm{Wang}, \binits{R.}},
+\bauthor{\bsnm{Wood}, \binits{D.}},
+\bauthor{\bsnm{Turner}, \binits{J.A.}},
+\bauthor{\bsnm{Calhoun}, \binits{V.D.}}:
+\batitle{{{C}{O}{I}{N}{S} {D}ata {E}xchange: {A}n open platform for compiling,
+  curating, and disseminating neuroimaging data}}.
+\bjtitle{Neuroimage}
+\bvolume{124}(\bissue{Pt B}),
+\bfpage{1084}--\blpage{1088}
+(\byear{2016})
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem{Das2011}
+\begin{botherref}
+\oauthor{\bsnm{S.}, \binits{D.}}:
+{{L}{O}{R}{I}{S}: a web-based data management system for multi-center studies}.
+Front.Neuroinform
+\textbf{5}
+(2011)
+\end{botherref}
+\endbibitem
+
+%%% 10
+\bibitem{Gorgolewski2015}
+\begin{barticle}
+\bauthor{\bsnm{Gorgolewski}, \binits{K.J.}},
+\bauthor{\bsnm{Auer}, \binits{T.}},
+\bauthor{\bsnm{Calhoun}, \binits{V.D.}},
+\bauthor{\bsnm{Craddock}, \binits{R.C.}},
+\bauthor{\bsnm{Das}, \binits{S.}},
+\bauthor{\bsnm{Duff}, \binits{E.P.}},
+\bauthor{\bsnm{Flandin}, \binits{G.}},
+\bauthor{\bsnm{Ghosh}, \binits{S.S.}},
+\bauthor{\bsnm{Glatard}, \binits{T.}},
+\bauthor{\bsnm{Halchenko}, \binits{Y.O.}},
+\bauthor{\bsnm{Handwerker}, \binits{D.A.}},
+\bauthor{\bsnm{Hanke}, \binits{M.}},
+\bauthor{\bsnm{Keator}, \binits{D.}},
+\bauthor{\bsnm{Li}, \binits{X.}},
+\bauthor{\bsnm{Michael}, \binits{Z.}},
+\bauthor{\bsnm{Maumet}, \binits{C.}},
+\bauthor{\bsnm{Nichols}, \binits{B.N.}},
+\bauthor{\bsnm{Nichols}, \binits{T.E.}},
+\bauthor{\bsnm{Poline}, \binits{J.-B.}},
+\bauthor{\bsnm{Rokem}, \binits{A.}},
+\bauthor{\bsnm{Schaefer}, \binits{G.}},
+\bauthor{\bsnm{Sochat}, \binits{V.}},
+\bauthor{\bsnm{Turner}, \binits{J.A.}},
+\bauthor{\bsnm{Varoquaux}, \binits{G.}},
+\bauthor{\bsnm{Poldrack}, \binits{R.A.}}:
+\batitle{The brain imaging data structure: a standard for organizing and
+  describing outputs of neuroimaging experiments}.
+\bjtitle{bioRxiv}
+(\byear{2015}).
+doi:\doiurl{10.1101/034561}.
+\arxivurl{http://biorxiv.org/content/early/2015/12/16/034561.full.pdf}
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>Harnessing cloud computing for high capacity analysis of
+  neuroimaging data from NDAR</p></title>
+  <aug>
+    <au><snm>Clark</snm><fnm>D</fnm></au>
+    <au><snm>Haselgrove</snm><fnm>C</fnm></au>
+    <au><snm>Kennedy</snm><fnm>DN</fnm></au>
+    <au><snm>Liu</snm><fnm>Z</fnm></au>
+    <au><snm>Milham</snm><fnm>M</fnm></au>
+    <au><snm>Petrosyan</snm><fnm>P</fnm></au>
+    <au><snm>Torgerson</snm><fnm>C</fnm></au>
+    <au><snm>Van Horn</snm><fnm>J</fnm></au>
+    <au><snm>Craddock</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Frontiers in Neuroscience</source>
+  <issue>21</issue>
+  <url>http://www.frontiersin.org/neuroscience/10.3389/conf.fnins.2015.91.00021/full</url>
+</bibl>
+
+<bibl id="B2">
+  <title><p>{{T}oward discovery science of human brain function}</p></title>
+  <aug>
+    <au><snm>Biswal</snm><fnm>B. B.</fnm></au>
+    <au><snm>Mennes</snm><fnm>M.</fnm></au>
+    <au><snm>Zuo</snm><fnm>X. N.</fnm></au>
+    <au><snm>Gohel</snm><fnm>S.</fnm></au>
+    <au><snm>Kelly</snm><fnm>C.</fnm></au>
+    <au><snm>Smith</snm><fnm>S. M.</fnm></au>
+    <au><snm>Beckmann</snm><fnm>C. F.</fnm></au>
+    <au><snm>Adelstein</snm><fnm>J. S.</fnm></au>
+    <au><snm>Buckner</snm><fnm>R. L.</fnm></au>
+    <au><snm>Colcombe</snm><fnm>S.</fnm></au>
+    <au><snm>Dogonowski</snm><fnm>A. M.</fnm></au>
+    <au><snm>Ernst</snm><fnm>M.</fnm></au>
+    <au><snm>Fair</snm><fnm>D.</fnm></au>
+    <au><snm>Hampson</snm><fnm>M.</fnm></au>
+    <au><snm>Hoptman</snm><fnm>M. J.</fnm></au>
+    <au><snm>Hyde</snm><fnm>J. S.</fnm></au>
+    <au><snm>Kiviniemi</snm><fnm>V. J.</fnm></au>
+    <au><snm>Kotter</snm><fnm>R.</fnm></au>
+    <au><snm>Li</snm><fnm>S. J.</fnm></au>
+    <au><snm>Lin</snm><fnm>C. P.</fnm></au>
+    <au><snm>Lowe</snm><fnm>M. J.</fnm></au>
+    <au><snm>Mackay</snm><fnm>C.</fnm></au>
+    <au><snm>Madden</snm><fnm>D. J.</fnm></au>
+    <au><snm>Madsen</snm><fnm>K. H.</fnm></au>
+    <au><snm>Margulies</snm><fnm>D. S.</fnm></au>
+    <au><snm>Mayberg</snm><fnm>H. S.</fnm></au>
+    <au><snm>McMahon</snm><fnm>K.</fnm></au>
+    <au><snm>Monk</snm><fnm>C. S.</fnm></au>
+    <au><snm>Mostofsky</snm><fnm>S. H.</fnm></au>
+    <au><snm>Nagel</snm><fnm>B. J.</fnm></au>
+    <au><snm>Pekar</snm><fnm>J. J.</fnm></au>
+    <au><snm>Peltier</snm><fnm>S. J.</fnm></au>
+    <au><snm>Petersen</snm><fnm>S. E.</fnm></au>
+    <au><snm>Riedl</snm><fnm>V.</fnm></au>
+    <au><snm>Rombouts</snm><fnm>S. A.</fnm></au>
+    <au><snm>Rypma</snm><fnm>B.</fnm></au>
+    <au><snm>Schlaggar</snm><fnm>B. L.</fnm></au>
+    <au><snm>Schmidt</snm><fnm>S.</fnm></au>
+    <au><snm>Seidler</snm><fnm>R. D.</fnm></au>
+    <au><snm>Siegle</snm><fnm>G. J.</fnm></au>
+    <au><snm>Sorg</snm><fnm>C.</fnm></au>
+    <au><snm>Teng</snm><fnm>G. J.</fnm></au>
+    <au><snm>Veijola</snm><fnm>J.</fnm></au>
+    <au><snm>Villringer</snm><fnm>A.</fnm></au>
+    <au><snm>Walter</snm><fnm>M.</fnm></au>
+    <au><snm>Wang</snm><fnm>L.</fnm></au>
+    <au><snm>Weng</snm><fnm>X. C.</fnm></au>
+    <au><snm>Whitfield Gabrieli</snm><fnm>S.</fnm></au>
+    <au><snm>Williamson</snm><fnm>P.</fnm></au>
+    <au><snm>Windischberger</snm><fnm>C.</fnm></au>
+    <au><snm>Zang</snm><fnm>Y. F.</fnm></au>
+    <au><snm>Zhang</snm><fnm>H. Y.</fnm></au>
+    <au><snm>Castellanos</snm><fnm>F. X.</fnm></au>
+    <au><snm>Milham</snm><fnm>M. P.</fnm></au>
+  </aug>
+  <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+  <pubdate>2010</pubdate>
+  <volume>107</volume>
+  <issue>10</issue>
+  <fpage>4734</fpage>
+  <lpage>-4739</lpage>
+</bibl>
+
+<bibl id="B3">
+  <title><p>{{M}aking data sharing work: the {F}{C}{P}/{I}{N}{D}{I}
+  experience}</p></title>
+  <aug>
+    <au><snm>Mennes</snm><fnm>M.</fnm></au>
+    <au><snm>Biswal</snm><fnm>B. B.</fnm></au>
+    <au><snm>Castellanos</snm><fnm>F. X.</fnm></au>
+    <au><snm>Milham</snm><fnm>M. P.</fnm></au>
+  </aug>
+  <source>Neuroimage</source>
+  <pubdate>2013</pubdate>
+  <volume>82</volume>
+  <fpage>683</fpage>
+  <lpage>-691</lpage>
+</bibl>
+
+<bibl id="B4">
+  <title><p>{{T}he autism brain imaging data exchange: towards a large-scale
+  evaluation of the intrinsic brain architecture in autism}</p></title>
+  <aug>
+    <au><snm>Di Martino</snm><fnm>A.</fnm></au>
+    <au><snm>Yan</snm><fnm>C. G.</fnm></au>
+    <au><snm>Li</snm><fnm>Q.</fnm></au>
+    <au><snm>Denio</snm><fnm>E.</fnm></au>
+    <au><snm>Castellanos</snm><fnm>F. X.</fnm></au>
+    <au><snm>Alaerts</snm><fnm>K.</fnm></au>
+    <au><snm>Anderson</snm><fnm>J. S.</fnm></au>
+    <au><snm>Assaf</snm><fnm>M.</fnm></au>
+    <au><snm>Bookheimer</snm><fnm>S. Y.</fnm></au>
+    <au><snm>Dapretto</snm><fnm>M.</fnm></au>
+    <au><snm>Deen</snm><fnm>B.</fnm></au>
+    <au><snm>Delmonte</snm><fnm>S.</fnm></au>
+    <au><snm>Dinstein</snm><fnm>I.</fnm></au>
+    <au><snm>Ertl Wagner</snm><fnm>B.</fnm></au>
+    <au><snm>Fair</snm><fnm>D. A.</fnm></au>
+    <au><snm>Gallagher</snm><fnm>L.</fnm></au>
+    <au><snm>Kennedy</snm><fnm>D. P.</fnm></au>
+    <au><snm>Keown</snm><fnm>C. L.</fnm></au>
+    <au><snm>Keysers</snm><fnm>C.</fnm></au>
+    <au><snm>Lainhart</snm><fnm>J. E.</fnm></au>
+    <au><snm>Lord</snm><fnm>C.</fnm></au>
+    <au><snm>Luna</snm><fnm>B.</fnm></au>
+    <au><snm>Menon</snm><fnm>V.</fnm></au>
+    <au><snm>Minshew</snm><fnm>N. J.</fnm></au>
+    <au><snm>Monk</snm><fnm>C. S.</fnm></au>
+    <au><snm>Mueller</snm><fnm>S.</fnm></au>
+    <au><snm>Muller</snm><fnm>R. A.</fnm></au>
+    <au><snm>Nebel</snm><fnm>M. B.</fnm></au>
+    <au><snm>Nigg</snm><fnm>J. T.</fnm></au>
+    <au><snm>O'Hearn</snm><fnm>K.</fnm></au>
+    <au><snm>Pelphrey</snm><fnm>K. A.</fnm></au>
+    <au><snm>Peltier</snm><fnm>S. J.</fnm></au>
+    <au><snm>Rudie</snm><fnm>J. D.</fnm></au>
+    <au><snm>Sunaert</snm><fnm>S.</fnm></au>
+    <au><snm>Thioux</snm><fnm>M.</fnm></au>
+    <au><snm>Tyszka</snm><fnm>J. M.</fnm></au>
+    <au><snm>Uddin</snm><fnm>L. Q.</fnm></au>
+    <au><snm>Verhoeven</snm><fnm>J. S.</fnm></au>
+    <au><snm>Wenderoth</snm><fnm>N.</fnm></au>
+    <au><snm>Wiggins</snm><fnm>J. L.</fnm></au>
+    <au><snm>Mostofsky</snm><fnm>S. H.</fnm></au>
+    <au><snm>Milham</snm><fnm>M. P.</fnm></au>
+  </aug>
+  <source>Mol. Psychiatry</source>
+  <pubdate>2014</pubdate>
+  <volume>19</volume>
+  <issue>6</issue>
+  <fpage>659</fpage>
+  <lpage>-667</lpage>
+</bibl>
+
+<bibl id="B5">
+  <title><p>The adhd-200 consortium: a model to advance the translational
+  potential of neuroimaging in clinical neuroscience</p></title>
+  <aug>
+    <au><snm>Milham</snm><fnm>MP</fnm></au>
+    <au><snm>Fair</snm><fnm>D</fnm></au>
+    <au><snm>Mennes</snm><fnm>M</fnm></au>
+    <au><snm>Mostofsky</snm><fnm>SH</fnm></au>
+  </aug>
+  <source>Frontiers in Systems Neuroscience</source>
+  <pubdate>2012</pubdate>
+  <volume>6</volume>
+  <issue>62</issue>
+  <url>http://www.frontiersin.org/systems_neuroscience/10.3389/fnsys.2012.00062/full</url>
+</bibl>
+
+<bibl id="B6">
+  <title><p>{{A}n open science resource for establishing reliability and
+  reproducibility in functional connectomics}</p></title>
+  <aug>
+    <au><snm>Zuo</snm><fnm>X. N.</fnm></au>
+    <au><snm>Anderson</snm><fnm>J. S.</fnm></au>
+    <au><snm>Bellec</snm><fnm>P.</fnm></au>
+    <au><snm>Birn</snm><fnm>R. M.</fnm></au>
+    <au><snm>Biswal</snm><fnm>B. B.</fnm></au>
+    <au><snm>Blautzik</snm><fnm>J.</fnm></au>
+    <au><snm>Breitner</snm><fnm>J. C.</fnm></au>
+    <au><snm>Buckner</snm><fnm>R. L.</fnm></au>
+    <au><snm>Calhoun</snm><fnm>V. D.</fnm></au>
+    <au><snm>Castellanos</snm><fnm>F. X.</fnm></au>
+    <au><snm>Chen</snm><fnm>A.</fnm></au>
+    <au><snm>Chen</snm><fnm>B.</fnm></au>
+    <au><snm>Chen</snm><fnm>J.</fnm></au>
+    <au><snm>Chen</snm><fnm>X.</fnm></au>
+    <au><snm>Colcombe</snm><fnm>S. J.</fnm></au>
+    <au><snm>Courtney</snm><fnm>W.</fnm></au>
+    <au><snm>Craddock</snm><fnm>R. C.</fnm></au>
+    <au><snm>Di Martino</snm><fnm>A.</fnm></au>
+    <au><snm>Dong</snm><fnm>H. M.</fnm></au>
+    <au><snm>Fu</snm><fnm>X.</fnm></au>
+    <au><snm>Gong</snm><fnm>Q.</fnm></au>
+    <au><snm>Gorgolewski</snm><fnm>K. J.</fnm></au>
+    <au><snm>Han</snm><fnm>Y.</fnm></au>
+    <au><snm>He</snm><fnm>Y.</fnm></au>
+    <au><snm>He</snm><fnm>Y.</fnm></au>
+    <au><snm>Ho</snm><fnm>E.</fnm></au>
+    <au><snm>Holmes</snm><fnm>A.</fnm></au>
+    <au><snm>Hou</snm><fnm>X. H.</fnm></au>
+    <au><snm>Huckins</snm><fnm>J.</fnm></au>
+    <au><snm>Jiang</snm><fnm>T.</fnm></au>
+    <au><snm>Jiang</snm><fnm>Y.</fnm></au>
+    <au><snm>Kelley</snm><fnm>W.</fnm></au>
+    <au><snm>Kelly</snm><fnm>C.</fnm></au>
+    <au><snm>King</snm><fnm>M.</fnm></au>
+    <au><snm>LaConte</snm><fnm>S. M.</fnm></au>
+    <au><snm>Lainhart</snm><fnm>J. E.</fnm></au>
+    <au><snm>Lei</snm><fnm>X.</fnm></au>
+    <au><snm>Li</snm><fnm>H. J.</fnm></au>
+    <au><snm>Li</snm><fnm>K.</fnm></au>
+    <au><snm>Li</snm><fnm>K.</fnm></au>
+    <au><snm>Lin</snm><fnm>Q.</fnm></au>
+    <au><snm>Liu</snm><fnm>D.</fnm></au>
+    <au><snm>Liu</snm><fnm>J.</fnm></au>
+    <au><snm>Liu</snm><fnm>X.</fnm></au>
+    <au><snm>Liu</snm><fnm>Y.</fnm></au>
+    <au><snm>Lu</snm><fnm>G.</fnm></au>
+    <au><snm>Lu</snm><fnm>J.</fnm></au>
+    <au><snm>Luna</snm><fnm>B.</fnm></au>
+    <au><snm>Luo</snm><fnm>J.</fnm></au>
+    <au><snm>Lurie</snm><fnm>D.</fnm></au>
+    <au><snm>Mao</snm><fnm>Y.</fnm></au>
+    <au><snm>Margulies</snm><fnm>D. S.</fnm></au>
+    <au><snm>Mayer</snm><fnm>A. R.</fnm></au>
+    <au><snm>Meindl</snm><fnm>T.</fnm></au>
+    <au><snm>Meyerand</snm><fnm>M. E.</fnm></au>
+    <au><snm>Nan</snm><fnm>W.</fnm></au>
+    <au><snm>Nielsen</snm><fnm>J. A.</fnm></au>
+    <au><snm>O'Connor</snm><fnm>D.</fnm></au>
+    <au><snm>Paulsen</snm><fnm>D.</fnm></au>
+    <au><snm>Prabhakaran</snm><fnm>V.</fnm></au>
+    <au><snm>Qi</snm><fnm>Z.</fnm></au>
+    <au><snm>Qiu</snm><fnm>J.</fnm></au>
+    <au><snm>Shao</snm><fnm>C.</fnm></au>
+    <au><snm>Shehzad</snm><fnm>Z.</fnm></au>
+    <au><snm>Tang</snm><fnm>W.</fnm></au>
+    <au><snm>Villringer</snm><fnm>A.</fnm></au>
+    <au><snm>Wang</snm><fnm>H.</fnm></au>
+    <au><snm>Wang</snm><fnm>K.</fnm></au>
+    <au><snm>Wei</snm><fnm>D.</fnm></au>
+    <au><snm>Wei</snm><fnm>G. X.</fnm></au>
+    <au><snm>Weng</snm><fnm>X. C.</fnm></au>
+    <au><snm>Wu</snm><fnm>X.</fnm></au>
+    <au><snm>Xu</snm><fnm>T.</fnm></au>
+    <au><snm>Yang</snm><fnm>N.</fnm></au>
+    <au><snm>Yang</snm><fnm>Z.</fnm></au>
+    <au><snm>Zang</snm><fnm>Y. F.</fnm></au>
+    <au><snm>Zhang</snm><fnm>L.</fnm></au>
+    <au><snm>Zhang</snm><fnm>Q.</fnm></au>
+    <au><snm>Zhang</snm><fnm>Z.</fnm></au>
+    <au><snm>Zhang</snm><fnm>Z.</fnm></au>
+    <au><snm>Zhao</snm><fnm>K.</fnm></au>
+    <au><snm>Zhen</snm><fnm>Z.</fnm></au>
+    <au><snm>Zhou</snm><fnm>Y.</fnm></au>
+    <au><snm>Zhu</snm><fnm>X. T.</fnm></au>
+    <au><snm>Milham</snm><fnm>M. P.</fnm></au>
+  </aug>
+  <source>Sci Data</source>
+  <pubdate>2014</pubdate>
+  <volume>1</volume>
+  <fpage>140049</fpage>
+</bibl>
+
+<bibl id="B7">
+  <title><p>{{T}he {N}{K}{I}-{R}ockland {S}ample: {A} {M}odel for
+  {A}ccelerating the {P}ace of {D}iscovery {S}cience in
+  {P}sychiatry}</p></title>
+  <aug>
+    <au><snm>Nooner</snm><fnm>K. B.</fnm></au>
+    <au><snm>Colcombe</snm><fnm>S. J.</fnm></au>
+    <au><snm>Tobe</snm><fnm>R. H.</fnm></au>
+    <au><snm>Mennes</snm><fnm>M.</fnm></au>
+    <au><snm>Benedict</snm><fnm>M. M.</fnm></au>
+    <au><snm>Moreno</snm><fnm>A. L.</fnm></au>
+    <au><snm>Panek</snm><fnm>L. J.</fnm></au>
+    <au><snm>Brown</snm><fnm>S.</fnm></au>
+    <au><snm>Zavitz</snm><fnm>S. T.</fnm></au>
+    <au><snm>Li</snm><fnm>Q.</fnm></au>
+    <au><snm>Sikka</snm><fnm>S.</fnm></au>
+    <au><snm>Gutman</snm><fnm>D.</fnm></au>
+    <au><snm>Bangaru</snm><fnm>S.</fnm></au>
+    <au><snm>Schlachter</snm><fnm>R. T.</fnm></au>
+    <au><snm>Kamiel</snm><fnm>S. M.</fnm></au>
+    <au><snm>Anwar</snm><fnm>A. R.</fnm></au>
+    <au><snm>Hinz</snm><fnm>C. M.</fnm></au>
+    <au><snm>Kaplan</snm><fnm>M. S.</fnm></au>
+    <au><snm>Rachlin</snm><fnm>A. B.</fnm></au>
+    <au><snm>Adelsberg</snm><fnm>S.</fnm></au>
+    <au><snm>Cheung</snm><fnm>B.</fnm></au>
+    <au><snm>Khanuja</snm><fnm>R.</fnm></au>
+    <au><snm>Yan</snm><fnm>C.</fnm></au>
+    <au><snm>Craddock</snm><fnm>C. C.</fnm></au>
+    <au><snm>Calhoun</snm><fnm>V.</fnm></au>
+    <au><snm>Courtney</snm><fnm>W.</fnm></au>
+    <au><snm>King</snm><fnm>M.</fnm></au>
+    <au><snm>Wood</snm><fnm>D.</fnm></au>
+    <au><snm>Cox</snm><fnm>C. L.</fnm></au>
+    <au><snm>Kelly</snm><fnm>A. M.</fnm></au>
+    <au><snm>Di Martino</snm><fnm>A.</fnm></au>
+    <au><snm>Petkova</snm><fnm>E.</fnm></au>
+    <au><snm>Reiss</snm><fnm>P. T.</fnm></au>
+    <au><snm>Duan</snm><fnm>N.</fnm></au>
+    <au><snm>Thomsen</snm><fnm>D.</fnm></au>
+    <au><snm>Biswal</snm><fnm>B.</fnm></au>
+    <au><snm>Coffey</snm><fnm>B.</fnm></au>
+    <au><snm>Hoptman</snm><fnm>M. J.</fnm></au>
+    <au><snm>Javitt</snm><fnm>D. C.</fnm></au>
+    <au><snm>Pomara</snm><fnm>N.</fnm></au>
+    <au><snm>Sidtis</snm><fnm>J. J.</fnm></au>
+    <au><snm>Koplewicz</snm><fnm>H. S.</fnm></au>
+    <au><snm>Castellanos</snm><fnm>F. X.</fnm></au>
+    <au><snm>Leventhal</snm><fnm>B. L.</fnm></au>
+    <au><snm>Milham</snm><fnm>M. P.</fnm></au>
+  </aug>
+  <source>Front Neurosci</source>
+  <pubdate>2012</pubdate>
+  <volume>6</volume>
+  <fpage>152</fpage>
+</bibl>
+
+<bibl id="B8">
+  <title><p>{{C}{O}{I}{N}{S} {D}ata {E}xchange: {A}n open platform for
+  compiling, curating, and disseminating neuroimaging data}</p></title>
+  <aug>
+    <au><snm>Landis</snm><fnm>D.</fnm></au>
+    <au><snm>Courtney</snm><fnm>W.</fnm></au>
+    <au><snm>Dieringer</snm><fnm>C.</fnm></au>
+    <au><snm>Kelly</snm><fnm>R.</fnm></au>
+    <au><snm>King</snm><fnm>M.</fnm></au>
+    <au><snm>Miller</snm><fnm>B.</fnm></au>
+    <au><snm>Wang</snm><fnm>R.</fnm></au>
+    <au><snm>Wood</snm><fnm>D.</fnm></au>
+    <au><snm>Turner</snm><fnm>J. A.</fnm></au>
+    <au><snm>Calhoun</snm><fnm>V. D.</fnm></au>
+  </aug>
+  <source>Neuroimage</source>
+  <pubdate>2016</pubdate>
+  <volume>124</volume>
+  <issue>Pt B</issue>
+  <fpage>1084</fpage>
+  <lpage>-1088</lpage>
+</bibl>
+
+<bibl id="B9">
+  <title><p>{{L}{O}{R}{I}{S}: a web-based data management system for
+  multi-center studies}</p></title>
+  <aug>
+    <au><snm>S.</snm><fnm>D</fnm></au>
+  </aug>
+  <source>Front.Neuroinform</source>
+  <pubdate>2011</pubdate>
+  <volume>5</volume>
+</bibl>
+
+<bibl id="B10">
+  <title><p>The Brain Imaging Data Structure: a standard for organizing and
+  describing outputs of neuroimaging experiments</p></title>
+  <aug>
+    <au><snm>Gorgolewski</snm><fnm>KJ</fnm></au>
+    <au><snm>Auer</snm><fnm>T</fnm></au>
+    <au><snm>Calhoun</snm><fnm>VD</fnm></au>
+    <au><snm>Craddock</snm><fnm>RC</fnm></au>
+    <au><snm>Das</snm><fnm>S</fnm></au>
+    <au><snm>Duff</snm><fnm>EP</fnm></au>
+    <au><snm>Flandin</snm><fnm>G</fnm></au>
+    <au><snm>Ghosh</snm><fnm>SS</fnm></au>
+    <au><snm>Glatard</snm><fnm>T</fnm></au>
+    <au><snm>Halchenko</snm><fnm>YO</fnm></au>
+    <au><snm>Handwerker</snm><fnm>DA</fnm></au>
+    <au><snm>Hanke</snm><fnm>M</fnm></au>
+    <au><snm>Keator</snm><fnm>D</fnm></au>
+    <au><snm>Li</snm><fnm>X</fnm></au>
+    <au><snm>Michael</snm><fnm>Z</fnm></au>
+    <au><snm>Maumet</snm><fnm>C</fnm></au>
+    <au><snm>Nichols</snm><fnm>BN</fnm></au>
+    <au><snm>Nichols</snm><fnm>TE</fnm></au>
+    <au><snm>Poline</snm><fnm>JB</fnm></au>
+    <au><snm>Rokem</snm><fnm>A</fnm></au>
+    <au><snm>Schaefer</snm><fnm>G</fnm></au>
+    <au><snm>Sochat</snm><fnm>V</fnm></au>
+    <au><snm>Turner</snm><fnm>JA</fnm></au>
+    <au><snm>Varoquaux</snm><fnm>G</fnm></au>
+    <au><snm>Poldrack</snm><fnm>RA</fnm></au>
+  </aug>
+  <source>bioRxiv</source>
+  <publisher>Cold Spring Harbor Labs Journals</publisher>
+  <pubdate>2015</pubdate>
+  <url>http://biorxiv.org/content/early/2015/12/16/034561</url>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment
