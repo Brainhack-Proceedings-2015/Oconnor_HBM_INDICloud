@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 MAY 2016 19:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 MAY 2016 19:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1499,12 +1499,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 293--309
  []
 
 
-Overfull \hbox (76.91734pt too wide) in paragraph at lines 293--309
-\OT1/cmr/m/n/10 path in Cy-ber-Duck: fcp-indi/data/Projects/RocklandSample/RawD
-ata. 
- []
-
-
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 309.
 
@@ -1512,7 +1506,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./bhgn.pdf>] <cyberduck_screenshot.png, id=126, 585.18625pt x 560.0925pt>
+ <./bhgn.pdf>] <cyberduck_screenshot.png, id=127, 585.18625pt x 560.0925pt>
 File: cyberduck_screenshot.png Graphic file (type png)
 
 <use cyberduck_screenshot.png>
@@ -1572,10 +1566,10 @@ l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
 texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on brainhack-report-formatted.pdf (3 pages, 518129 bytes).
+Output written on brainhack-report-formatted.pdf (3 pages, 519554 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
+ 213 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
  38 named destinations out of 1000 (max. 500000)
  55 words of extra memory for PDF output out of 10000 (max. 10000000)
 
