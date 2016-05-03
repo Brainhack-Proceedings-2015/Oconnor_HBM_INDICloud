@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 MAY 2016 19:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 MAY 2016 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1495,12 +1495,6 @@ indi / indi _ data _
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 293--310
-\OT1/cmr/m/n/10 note\OMS/cmsy/m/n/10 f[][]$\OT1/cmtt/l/n/10 https : / / github 
-. com / FCP-[]INDI / INDI-[]Tools$[][]\OMS/cmsy/m/n/10 g\OT1/cmr/m/n/10 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--310
 \OT1/cmr/m/n/10 bucket-name/data/Projects/ProjectName/DataType.
  []
 
@@ -1512,7 +1506,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./bhgn.pdf>] <cyberduck_screenshot.png, id=125, 585.18625pt x 560.0925pt>
+ <./bhgn.pdf>] <cyberduck_screenshot.png, id=126, 585.18625pt x 560.0925pt>
 File: cyberduck_screenshot.png Graphic file (type png)
 
 <use cyberduck_screenshot.png>
@@ -1552,10 +1546,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24105 strings out of 493315
- 475775 string characters out of 6137904
+ 24104 strings out of 493315
+ 475751 string characters out of 6137904
  496018 words of memory out of 5000000
- 27110 multiletter control sequences out of 15000+600000
+ 27108 multiletter control sequences out of 15000+600000
  12588 words of font info for 48 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,8n,57p,1468b,951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1572,10 +1566,10 @@ l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
 texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on brainhack-report-formatted.pdf (3 pages, 518802 bytes).
+Output written on brainhack-report-formatted.pdf (3 pages, 518398 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 211 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
  55 words of extra memory for PDF output out of 10000 (max. 10000000)
 
