@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 MAY 2016 19:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  3 MAY 2016 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1467,40 +1467,45 @@ LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <5.5> not available
 
 \address@aff1=\toks46
 \address@aff2=\toks47
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 244.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 243.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 244.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 243.
 
-Overfull \hbox (10.99873pt too wide) in paragraph at lines 244--250
-[]\OT1/cmr/m/n/10 The \OT1/cmr/m/it/10 Autism Brain Imag-ing Data Ex-change (AB
-IDE)
+Underfull \hbox (badness 4229) in paragraph at lines 243--243
+[]\OT1/cmr/m/n/10 The \OT1/cmr/m/it/10 Autism Brain Imag-ing Data Ex-change
  []
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 280.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 275.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 280.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 275.
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 $[]$[][][][]$\OT1/cmtt/m/n/7 http : / / fcon _ 1000 . projects . nitrc . org / 
 indi / indi _ data _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--309
+Underfull \hbox (badness 10000) in paragraph at lines 288--304
 \OT1/cmr/m/n/10 bucket-name/data/Projects/ProjectName/DataType.
  []
 
 
+Overfull \hbox (4.52573pt too wide) in paragraph at lines 288--304
+\OT1/cmtt/l/n/10 fcp-[]indi / data / Projects / RocklandSample / RawData$[][]\O
+T1/cmr/m/n/10 . 
+ []
+
+
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 309.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 304.
 
 
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -1510,16 +1515,16 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
 File: cyberduck_screenshot.png Graphic file (type png)
 
 <use cyberduck_screenshot.png>
-Package pdftex.def Info: cyberduck_screenshot.png used on input line 311.
+Package pdftex.def Info: cyberduck_screenshot.png used on input line 306.
 (pdftex.def)             Requested size: 227.48059pt x 217.72585pt.
 
-Overfull \hbox (4.98059pt too wide) in paragraph at lines 311--312
+Overfull \hbox (4.98059pt too wide) in paragraph at lines 306--307
  [][] 
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 332.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 327.
 
 
 (./brainhack-report-formatted.bbl [2 <./cyberduck_screenshot.png>])
@@ -1528,11 +1533,11 @@ AED: lastpage setting LastPage
 [3
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 370.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 370.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 365.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 365.
  (./brainhack-report-formatted.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 370.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 370.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 365.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 365.
 Package rerunfilecheck Info: File `brainhack-report-formatted.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: 268A8F45B1DBD2B74F46A158A7F343CA;178.
@@ -1546,10 +1551,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24104 strings out of 493315
- 475751 string characters out of 6137904
- 496018 words of memory out of 5000000
- 27108 multiletter control sequences out of 15000+600000
+ 24105 strings out of 493315
+ 475767 string characters out of 6137904
+ 497018 words of memory out of 5000000
+ 27109 multiletter control sequences out of 15000+600000
  12588 words of font info for 48 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  63i,8n,57p,1468b,951s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1566,7 +1571,7 @@ l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
 texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on brainhack-report-formatted.pdf (3 pages, 519554 bytes).
+Output written on brainhack-report-formatted.pdf (3 pages, 519809 bytes).
 PDF statistics:
  213 PDF objects out of 1000 (max. 8388607)
  175 compressed objects within 2 object streams
