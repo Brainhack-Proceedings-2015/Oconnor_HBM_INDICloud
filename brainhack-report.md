@@ -55,7 +55,7 @@ contrib: DO performed quality control, and uploaded the data. DJC wrote code to 
   
 bibliography: brainhack-report
 
-gigascience-ref: REFXXX
+gigascience-ref: \href{http://gigadb.org/dataset/100233}{doi:10.5524/100233}
 ...
 
 #Introduction
